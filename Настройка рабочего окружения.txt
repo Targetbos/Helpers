@@ -1,0 +1,4 @@
+1. Установка VS-Code
+2. Установка Node.js и NPM
+3. Установка Git-Lab
+4. Установка Browsersync npm install -g browser-sync . Нужен для отображения верстки на мобильном телефоне. Для запуска необходимо войти в папку проекта и запустить командой: browser-sync start --server --files "css/*.css"

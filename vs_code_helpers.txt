@@ -1,0 +1,19 @@
+Дополнения для VS Code:
+1. HtmlHint
+2. Emmet
+3. Editorconfig
+Создаётся в корне файл .editorconfig с содержимым:
+
+[*]
+charset = utf-8
+indent_style = space // используем пробелы вместо табуляции
+indent_size = 2      // 2 пробела
+insert_final_newline = true // добвлять в конец файла при сохранении новую строку
+trim_trailing_whitespace = true // Удаляет лишние пробелы при сохранении
+
+[*.js]
+insert_final_newline = false // Удаляет пустую строку в конце файла в JS файлах
+
+4. Live Server
+5. CSS Navigation
+6. Ecsstractor
